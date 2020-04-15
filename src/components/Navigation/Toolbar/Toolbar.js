@@ -9,9 +9,7 @@ const toolbar = props => (
     <header className={classes.Toolbar}>
         <div>MENU</div>
         <Logo/>
-        <nav>
-            <NavigationItems/>
-        </nav>
+        <NavigationItems/>
     </header>
 );
 export default toolbar;
