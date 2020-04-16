@@ -13,7 +13,9 @@ const toolbar = props => (
             <Logo />
         </div>
         
-        <NavigationItems/>
+        <nav className={classes.DesktopOnly}>
+            <NavigationItems/>
+        </nav>
     </header>
 );
 export default toolbar;
